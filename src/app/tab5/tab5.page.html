@@ -1,0 +1,107 @@
+<!-- tab5.component.html -->
+
+<ion-header>
+  <ion-toolbar>
+    <ion-title>BMW</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+
+  <!-- Sección de imagen y descripción -->
+  <div class="image-section">
+    <img src="../../assets/img/bmw1.jpg" alt="Ava Max" class="ava-max-image">
+    <div class="text">
+      <p>BMW fue fundada en 1916 como fabricante de motores de avión durante la Primera Guerra Mundial. Después del tratado de Versalles, la empresa se vio obligada a cambiar su enfoque hacia la fabricación de motores para vehículos y motocicletas. El primer automóvil BMW fue producido en 1928.</p>
+    </div>
+  </div>
+
+  <!-- Sección de Álbums -->
+  <div class="row">
+    <div class="column">
+      <div class="album-background">
+        <img src="../../assets/img/bmw-M1.jpg" alt="Heaven & Hell">
+      </div>
+    </div>
+    <div class="column">
+      <div class="album-info">
+        <h2>BMW M135i xDrive</h2>
+        <p>Más rendimiento, estilo y placer de conducir: el BMW M135i xDrive no ha llegado para ponerse a prueba, sino para marcar la pauta. Lo demuestra su exterior con detalles llamativos, como la parrilla doble específica para el BMW M135i xDrive con diseño de rejilla, el spoiler trasero M o los dos tubos de escape de 100 mm. El BMW M135i xDrive también establece nuevas referencias en carretera: la combinación del diferencial M Sport de serie, el sistema BMW xDrive, el cambio deportivo Steptronic y la dirección M Sport lo convierten en el mejor vehículo de su clase en cuanto a agilidad y comportamiento en las curvas.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <div class="album-background">
+        <img src="../../assets/img/bmw-M8.png" alt="Diamonds & Dancefloors">
+      </div>
+    </div>
+    <div class="column">
+      <div class="album-info">
+        <h2>BMW M8 Competition Coupé</h2>
+        <p>El BMW Serie 8 Coupé es un expresivo coupé deportivo que, con componentes avanzados del motor y la suspensión, garantiza un placer de conducir dinámico con un elevado confort de marcha. Descubre la síntesis perfecta de exclusividad y prestaciones.</p>
+      </div>
+    </div>
+  </div>
+
+</ion-content>
+
+<style>
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.image-section {
+  text-align: center;
+}
+
+.ava-max-image {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.text {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.row {
+  display: flex;
+  margin-top: 20px;
+}
+
+.column {
+  flex: 50%;
+}
+
+.album-background {
+  text-align: center;
+}
+
+.album-background img {
+  width: 25%;
+  height: auto;
+  border-radius: 10px;
+  text-align: right;
+  float: right;
+  margin-right: 150px;
+}
+
+.album-info {
+  margin-right: 560px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+h2 {
+  font-size: 2rem;
+}
+</style>
